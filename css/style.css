@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+/* =============   common css   =================== */
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.audit{
+    height: 900px;
+    background: #7adbd3;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.audit .box{
+    width: 500px;
+    height: 400px;
+    background: #335379;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.audit .box h3{
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 15px 0;
+    text-align: center;
+    display: block;
+    color: #fcdcb5;
+    border-bottom: 1px solid #aaa9a9;
+    
+}
+.audit .box .qbox{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+.audit .box .qbox button{
+    padding: 10px 50px;
+    background: #48beec;
+    position: absolute;
+    border: none;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+.audit .box .qbox button:hover{
+    background: #08f0dd;
+}
+.audit .box .qbox .question{
+    width: 400px;
+    height: 200px;
+}
+.audit .box .qbox .question p{
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    line-height: 160px;
+    color: #f7ce98;
+    
+}
+
+.audit .box .result{
+    width: 400px;
+    height: 100px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 400;
+    font-size: 100px;
+    text-align: center;
+    line-height: 150px;
+    color: bisque;    
+}
